@@ -1,0 +1,42 @@
+/* #wrap section{padding:0 15px;} */
+/* 반응형 디자인 */
+@media screen and (max-width:1550px) {
+
+    #nav .depth1 > li > a {
+    font-size: 1.4rem;  
+    }
+    #nav .depth1 > li {
+    margin: 0 50px;
+    }
+    .swiper1 .title h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    }
+    #sitemap .nav .depth1 {
+    margin-left: 50px;
+    }
+    #sitemap .nav .depth1 > li > a {
+    font-size: 3rem;
+    }
+    .swiper1 .title {
+    width: 90%;
+    }
+    #section05 .inner {
+    padding:50px 0;    
+}
+
+}
+
+@media screen and (max-width:1300px){
+    .swiper1 .title {
+    text-align: center;
+    }
+    #section02 .buisness {
+    gap: 20px 20%;
+    justify-content: center;
+    }
+    #section02 .buisness article {
+    padding: 70px 10px;
+    }
+
+}
